@@ -10,9 +10,10 @@ class CustomUserAdmin(UserAdmin):
     form = CustomUserChangeForm
     model = CustomUser
     list_display = [
-        "email",
         "username",
+        "email",
     ]
 
+    readonly_fields = ['date_joined', 'last_login']
 
 admin.site.register(CustomUser, CustomUserAdmin)
