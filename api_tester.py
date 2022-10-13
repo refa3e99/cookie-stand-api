@@ -3,7 +3,7 @@ import requests
 
 # NOTE: Adjust these settings as needed
 API_HOST = "http://localhost:8000"
-RESOURCE_URI = "cookie_stands"
+RESOURCE_URI = "shipment"
 USERNAME = "admin"
 PASSWORD = "admin"
 
